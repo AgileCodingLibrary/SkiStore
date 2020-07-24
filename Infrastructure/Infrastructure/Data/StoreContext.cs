@@ -1,11 +1,8 @@
-﻿using API.Entities;
+﻿
+using Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace API.Data
+namespace Infrastructure.Data
 {
     public class StoreContext : DbContext
     {
